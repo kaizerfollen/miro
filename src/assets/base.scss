@@ -1,0 +1,72 @@
+body {
+  min-height: 100vh;
+  font-size: 15px;
+  background: linear-gradient(135deg, #007bff 0%, #00d4ff 100%);
+}
+
+$vindu: #000;
+$joda: #01bd7e;
+$hot: #fff;
+
+.title {
+  color: $hot;
+  font-size: 26px;
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+  color: $hot;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $vindu;
+    .link {
+      color: $vindu;
+    }
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: -34px;
+  transform: translate(-50%, -50%);
+  height: 20px;
+  width: 20px;
+}
+
+.input {
+  height: 36px;
+  border-radius: 8px;
+  padding-left: 24px;
+  outline: none;
+  border: none;
+  font-family: 'CruinnRegular';
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition: all 0.3s ease;
+  &:focus {
+    border: 1px solid $vindu;
+  }
+}
+
+.button {
+  height: 36px;
+  padding: 4px 24px;
+  background-color: $hot;
+  color: $vindu;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-family: 'CruinnMedium';
+  font-size: 16px;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
