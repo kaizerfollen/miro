@@ -1,5 +1,5 @@
 <script setup>
-import LinkUi from '@/components/ui/LinkUi.vue';
+import LinkUi from '@/components/Ui/LinkUi.vue';
 
 </script>
 
